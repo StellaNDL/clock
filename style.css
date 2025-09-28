@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.border {
+    height: 300px;
+    width: 750px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#Date {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
