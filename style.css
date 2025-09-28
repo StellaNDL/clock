@@ -8,7 +8,6 @@
     top: 25%;
     left: 25%;
     background-color: black;
-    color: white;
     border-radius: 10px;
 }
 #Date {
@@ -16,4 +15,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
+    color: red;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    color: white;
 }
