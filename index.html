@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="border">
-            <div id="Date">Sunday, 28 September 2025</div>
+            <div id="showDate">Sunday, 28 September 2025</div>
             <div class="time">
                 <span id="hours">19</span>
                 <span>:</span>
@@ -19,5 +19,29 @@
             </div>
         </div>
     </div>
+    <script>
+        let showDate = document.getElementById
+        ("showDate");
+        let hours = document.getElementById
+        ("hours");
+        let minutes = document.getElementById
+        ("minutes");
+        let seconds = document.getElementById
+        ("seconds");
+
+        const monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+        let date = new Date();
+        // getDate() - date
+        // getMonth() - month no
+        // getFullYear() - 4 digit year 2025
+        // getHours()
+        // getMinutes()
+        // getSeconds()
+        
+        let displayDate = date.getDate() + " " + monthNames [date.getMonth()] + " " + date.getFullYear();
+        showDate.innerHTML = displayDate
+
+    </script>
 </body>
 </html>
